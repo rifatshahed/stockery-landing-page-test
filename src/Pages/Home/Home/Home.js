@@ -1,9 +1,14 @@
 import React from 'react';
+import Feature from '../Feature/Feature';
+import Hero from '../Hero/Hero';
+import Pricing from '../pricing/Pricing';
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is Home</h2>
+        <div className='mx-6'>
+            <Hero></Hero>
+            <Feature></Feature>
+            <Pricing></Pricing>
         </div>
     );
 };
